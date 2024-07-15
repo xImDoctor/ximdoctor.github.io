@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Kode Mono
+- Font Author: Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)
+- Font Source: https://fonts.gstatic.com/s/kodemono/v1/A2BLn5pb0QgtVEPFnlYkkaoBgw4qv9odq5my9DqTaOW2A3k.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
