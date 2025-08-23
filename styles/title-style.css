@@ -34,18 +34,18 @@ html {
 }
 
 .header h1 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: #ffffff;
     margin-bottom: 5px;
 }
 
 .header p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: #cccccc;
 }
 
 .preview-area {
-    height: 67%;
+    height:84%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,9 +68,9 @@ html {
 }
 
 .preview-image {
-    width: 200px;
+    width: 300px;
     height: auto;
-    max-height: 200px;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -78,24 +78,24 @@ html {
 
 .preview-text h1 {
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #ffffff;
 }
 
 .preview-text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     opacity: 0.8;
     max-width: 500px;
     line-height: 1.4;
 }
 
 .menu-area {
-    height: 33%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 20px;
+    padding: 80px;
 }
 
 .menu-icons {
