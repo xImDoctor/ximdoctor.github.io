@@ -12,31 +12,65 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="icons/favicon/site.webmanifest">
 
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <a href="/page-with-bootstrap/index.html" class="split left">
-            <div class="content">
-                <img src="img/about-cover.png" alt="about me page" class="cover-image">
-                <div class="text">
-                    <h1 class="title">About me</h1>
-                    <p class="description">Click to see more information about me.</p>
-                </div>
-            </div>
-        </a>
+        <div class="header">
+            <h1>Andrew ImDoctor</h1>
+            <p>Welcome to my title page!</p>
+        </div>
         
-        <a href="/html-css-js-labs/index.html" class="split right">
-            <div class="content">
-                <img src="img/lab-cover.png" alt="labs page" class="cover-image">
-                <div class="text">
-                    <h1 class="title">HTML/CSS &amp; JS</h1>
-                    <p class="description">Pages, code and etc made by me on the University web course.</p>
+        <div class="preview-area">
+            <div class="preview-content" id="preview-content">
+                <img src="img/about-cover.png" alt="Preview" class="preview-image" id="preview-image">
+                <div class="preview-text">
+                    <h1 id="preview-title">About me</h1>
+                    <p id="preview-description">Click to see more information about me.</p>
                 </div>
             </div>
-        </a>
+        </div>
+        
+        <div class="menu-area">
+            <div class="slider-controls">
+                <div class="slider-arrow" id="prev-arrow">‹</div>
+                <div class="slider-arrow" id="next-arrow">›</div>
+            </div>
+            
+            <div class="menu-icons" id="menu-icons">
+                <a href="/page-with-bootstrap/index.html" class="menu-item" data-title="About me" data-description="Click to see more information about me." data-image="img/about-cover.png">
+                    <img src="img/about-cover.png" alt="About me">
+                </a>
+                
+                <a href="/html-css-js-labs/index.html" class="menu-item" data-title="HTML/CSS &amp; JS" data-description="Pages, code and etc made by me on the University web course." data-image="img/lab-cover.png">
+                    <div class="icon-text">🌐</div>
+                </a>
+                
+                <!-- Just examples for now -->
+
+                <a href="/python-projects/index.html" class="menu-item" data-title="Python Projects" data-description="Various Python applications, scripts, and data analysis projects." data-image="img/python-cover.png">
+                    <div class="icon-text">🐍</div>
+                </a>
+                
+                <div class="menu-item" data-title="Contact Info" data-description="Get in touch with me through various channels. Email and social media links." data-image="img/contact-cover.png">
+                    <div class="icon-text">📧</div>
+                </div>
+                
+                <div class="menu-item" data-title="Resume/CV" data-description="Download my complete resume with education, experience, and skills." data-image="img/resume-cover.png">
+                    <div class="icon-text">📄</div>
+                </div>
+
+                <!--  -->
+            
+            </div>
+            
+            <div class="navigation-hint">Select the icon to see more info, click to dive into</div>
+            <!-- <div class="selection-indicator" id="selection-indicator">this one is choosen now</div> -->
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
