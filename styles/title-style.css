@@ -148,7 +148,7 @@ html {
 
 .navigation-hint {
     position: absolute;
-    bottom: 10px;
+    bottom: 55px;
     left: 20px;
     font-size: 0.8rem;
     color: #888888;
@@ -156,7 +156,7 @@ html {
 
 .selection-indicator {
     position: absolute;
-    bottom: 10px;
+    bottom: 55px;
     right: 20px;
     font-size: 0.8rem;
     color: #888888;
@@ -225,4 +225,56 @@ html {
     .menu-icons {
         gap: 15px;
     }
+}
+
+
+
+/* Footer styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 20;
+}
+
+.footer-content {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin: 0;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.1);
+}
+
+.github-icon {
+    margin-left: 10px;
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(1);
+    transition: filter 0.3s ease;
+}
+
+.github-link:hover .github-icon {
+    filter: invert(0.7);
 }
