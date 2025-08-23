@@ -148,7 +148,7 @@ html {
 
 .navigation-hint {
     position: absolute;
-    bottom: 55px;
+    bottom: 20px;
     left: 20px;
     font-size: 0.8rem;
     color: #888888;
@@ -156,8 +156,8 @@ html {
 
 .selection-indicator {
     position: absolute;
-    bottom: 55px;
-    right: 20px;
+    bottom: 40px;
+    left: 20px;
     font-size: 0.8rem;
     color: #888888;
 }
@@ -236,8 +236,8 @@ html {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
     z-index: 20;
 }
 

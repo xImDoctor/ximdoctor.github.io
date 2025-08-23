@@ -48,7 +48,7 @@ function updatePreview(item) {
     
     // Update selection indicator only if it exists
     if (selectionIndicator) {
-        selectionIndicator.textContent = `${currentIndex + 1}/${menuItems.length} is chosen now`;
+        selectionIndicator.textContent = `${currentIndex + 1}/${menuItems.length} is selected now`;
     }
 }
 
