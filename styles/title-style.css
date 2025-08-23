@@ -148,7 +148,7 @@ html {
 
 .navigation-hint {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 20px;
     font-size: 0.8rem;
     color: #888888;
@@ -156,7 +156,7 @@ html {
 
 .selection-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     left: 20px;
     font-size: 0.8rem;
     color: #888888;
@@ -235,7 +235,7 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 80px;
     /* background-color: rgba(0, 0, 0, 0.3); */
     /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
     z-index: 20;
@@ -251,7 +251,7 @@ html {
 }
 
 .copyright {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #cccccc;
     margin: 0;
 }
